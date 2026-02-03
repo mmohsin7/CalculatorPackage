@@ -1,17 +1,21 @@
-public struct Calculator
+import SwiftUI
+
+struct PackageView: View
 {
-
-    public init() { }
-
-    public func add(_ a: Int, _ b: Int) -> Int {
-        return a + b
+    var body: some View
+    {
+        VStack
+        {
+            Text("Package View Text 1.0.0")
+            Button("Package View Button 1.0.0")
+            {
+                print("Package View Button 1.0.0 Clicked")
+            }
+        }
+        .padding()
     }
+}
 
-    public func minus(_ a: Int, _ b: Int) -> Int {
-        return a - b
-    }
-
-    public func multiply(_ a: Int, _ b: Int) -> Int {
-        return a * b
-    }
+#Preview {
+    PackageView()
 }
