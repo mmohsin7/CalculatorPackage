@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct PackageView: View
+public struct PackageView: View
 {
-    var body: some View
+    public var body: some View
     {
         VStack
         {
@@ -14,8 +14,4 @@ struct PackageView: View
         }
         .padding()
     }
-}
-
-#Preview {
-    PackageView()
 }
