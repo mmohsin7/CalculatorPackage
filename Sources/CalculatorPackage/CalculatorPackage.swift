@@ -2,6 +2,8 @@ import SwiftUI
 
 public struct PackageView: View
 {
+    public init() {}
+    
     public var body: some View
     {
         VStack
