@@ -21,6 +21,12 @@ public struct PackageView: View
             {
                 print("Package View Button 2.0 Clicked")
             }
+            
+            Text("Package View Text 2.0")
+            Button("Package View Button 2.0")
+            {
+                print("Package View Button 2.0 Clicked")
+            }
         }
         .padding()
     }
